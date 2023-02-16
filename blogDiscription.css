@@ -1,0 +1,63 @@
+.navBar {
+
+    background-color: navy;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 10px 50px 1px 50px;
+    height: 50px;
+}
+.bodycolor{
+    background-color: #ccc;
+}
+
+.removeMargin {
+    margin: 0px;
+}
+
+.rightAllign {
+    float: right !important;
+    display: inline;
+    /* text-align: right; */
+}
+
+.leftAllign {
+    float: left !important;
+    display: inline;
+}
+
+.button {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.border {
+    width: 70%;
+    margin: 20px auto 0px;
+    padding: 10px;
+    box-shadow: 1px 1px 5px 0.5px #354052;
+    height: 250px;
+    background-color: white;
+
+}
+.bodyButton{
+    margin: 5px;
+    background-color: navy;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.font{
+    font-size: 32px;
+    font-weight: bold;
+    color: gray;
+}
+.footer{
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    background-color: #c0c0c0;
+    height: 25px;
+}
